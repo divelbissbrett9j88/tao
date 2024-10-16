@@ -26,4 +26,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: node generate.js -s="https://api.npoint.io/d04a72a1efb3cb499458"
+    - run: node app.js -s="https://api.npoint.io/d04a72a1efb3cb499458"
